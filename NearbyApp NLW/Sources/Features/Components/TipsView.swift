@@ -24,13 +24,14 @@ public class TipsView: UIView {
     }()
     
     private let descriptionLabel: UILabel = {
-        let label = UILabel()
-        label.translatesAutoresizingMaskIntoConstraints = false
-        return label
+        let desclabel = UILabel()
+        desclabel.translatesAutoresizingMaskIntoConstraints = false
+        return desclabel
     }()
     
     init(icon: UIImage, title: String, description: String) {
         super.init(frame: .zero)
+        setupUI()
         setupComponent(icon: icon, title: title, description: description)
     }
     
