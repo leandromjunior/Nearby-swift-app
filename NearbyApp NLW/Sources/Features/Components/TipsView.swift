@@ -19,12 +19,16 @@ public class TipsView: UIView {
     
     private let titleLabel: UILabel = {
         let label = UILabel()
+        label.font = Typography.titleSM
+        label.numberOfLines = 0 // Quebra linhas
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
     }()
     
     private let descriptionLabel: UILabel = {
         let desclabel = UILabel()
+        desclabel.font = Typography.textSM
+        desclabel.numberOfLines = 0 // Quebra linhas
         desclabel.translatesAutoresizingMaskIntoConstraints = false
         return desclabel
     }()

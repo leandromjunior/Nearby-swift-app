@@ -19,6 +19,11 @@
 		F2E5D07D2D09109200F3B037 /* NearbyFlowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E5D07C2D09109200F3B037 /* NearbyFlowController.swift */; };
 		F2E5D0812D09130200F3B037 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E5D0802D09130200F3B037 /* SplashViewController.swift */; };
 		F2E5D0832D09136400F3B037 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E5D0822D09136400F3B037 /* SplashView.swift */; };
+		F2FF924A2D0BC51800FA5D6B /* Typography.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FF92492D0BC51800FA5D6B /* Typography.swift */; };
+		F2FF924D2D0BCC9300FA5D6B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FF924C2D0BCC9300FA5D6B /* HomeView.swift */; };
+		F2FF924F2D0BCCA500FA5D6B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FF924E2D0BCCA500FA5D6B /* HomeViewController.swift */; };
+		F2FF92522D0BCF7500FA5D6B /* PlaceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FF92512D0BCF7500FA5D6B /* PlaceTableViewCell.swift */; };
+		F2FF92552D0BD77900FA5D6B /* PlaceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FF92542D0BD77900FA5D6B /* PlaceModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +41,11 @@
 		F2E5D07C2D09109200F3B037 /* NearbyFlowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyFlowController.swift; sourceTree = "<group>"; };
 		F2E5D0802D09130200F3B037 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		F2E5D0822D09136400F3B037 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		F2FF92492D0BC51800FA5D6B /* Typography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typography.swift; sourceTree = "<group>"; };
+		F2FF924C2D0BCC9300FA5D6B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		F2FF924E2D0BCCA500FA5D6B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		F2FF92512D0BCF7500FA5D6B /* PlaceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceTableViewCell.swift; sourceTree = "<group>"; };
+		F2FF92542D0BD77900FA5D6B /* PlaceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +107,7 @@
 		A9E7FD982CD93C7F001A762A /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				F2FF92532D0BD75C00FA5D6B /* Models */,
 				F2E482C32D0A75860076C369 /* Extensions */,
 				F2E482BB2D0A66540076C369 /* Components */,
 				F2E5D07F2D0912E700F3B037 /* Scenes */,
@@ -109,6 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				F2E5D0792D090F2C00F3B037 /* Colors.swift */,
+				F2FF92492D0BC51800FA5D6B /* Typography.swift */,
 			);
 			path = Constants;
 			sourceTree = "<group>";
@@ -159,10 +171,37 @@
 		F2E5D07F2D0912E700F3B037 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				F2FF924B2D0BCC7500FA5D6B /* HomeView */,
 				F2E482BE2D0A6A730076C369 /* WelcomeView */,
 				F2E5D07E2D0912D300F3B037 /* Splash */,
 			);
 			path = Scenes;
+			sourceTree = "<group>";
+		};
+		F2FF924B2D0BCC7500FA5D6B /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				F2FF92502D0BCF5700FA5D6B /* TableViewCell */,
+				F2FF924C2D0BCC9300FA5D6B /* HomeView.swift */,
+				F2FF924E2D0BCCA500FA5D6B /* HomeViewController.swift */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
+		F2FF92502D0BCF5700FA5D6B /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				F2FF92512D0BCF7500FA5D6B /* PlaceTableViewCell.swift */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		F2FF92532D0BD75C00FA5D6B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F2FF92542D0BD77900FA5D6B /* PlaceModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,16 +274,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2E482C22D0A708A0076C369 /* WelcomeViewController.swift in Sources */,
+				F2FF92552D0BD77900FA5D6B /* PlaceModel.swift in Sources */,
 				A9E7FD832CD93BFE001A762A /* AppDelegate.swift in Sources */,
+				F2FF924D2D0BCC9300FA5D6B /* HomeView.swift in Sources */,
 				F2E5D07A2D090F3000F3B037 /* Colors.swift in Sources */,
 				F2E5D07D2D09109200F3B037 /* NearbyFlowController.swift in Sources */,
+				F2FF924F2D0BCCA500FA5D6B /* HomeViewController.swift in Sources */,
 				F2E482C02D0A6A840076C369 /* WelcomeView.swift in Sources */,
 				A9E7FD852CD93BFE001A762A /* SceneDelegate.swift in Sources */,
 				F2E482BD2D0A666A0076C369 /* TipsView.swift in Sources */,
 				F2E5D0812D09130200F3B037 /* SplashViewController.swift in Sources */,
 				F2E482C52D0A75AE0076C369 /* UIViewController+ext.swift in Sources */,
 				F2E482C72D0A77430076C369 /* SplashFlowDelegate.swift in Sources */,
+				F2FF924A2D0BC51800FA5D6B /* Typography.swift in Sources */,
 				F2E5D0832D09136400F3B037 /* SplashView.swift in Sources */,
+				F2FF92522D0BCF7500FA5D6B /* PlaceTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
