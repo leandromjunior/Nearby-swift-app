@@ -10,6 +10,9 @@
 		A9E7FD832CD93BFE001A762A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E7FD822CD93BFE001A762A /* AppDelegate.swift */; };
 		A9E7FD852CD93BFE001A762A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E7FD842CD93BFE001A762A /* SceneDelegate.swift */; };
 		A9E7FD8C2CD93C01001A762A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9E7FD8B2CD93C01001A762A /* Assets.xcassets */; };
+		F2CF3E652D0CCE3400D62307 /* PlaceAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2CF3E642D0CCE3400D62307 /* PlaceAnnotation.swift */; };
+		F2CF3E682D0CFBF600D62307 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2CF3E672D0CFBF600D62307 /* DetailsViewController.swift */; };
+		F2CF3E6A2D0D190300D62307 /* WelcomeFlowDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2CF3E692D0D190300D62307 /* WelcomeFlowDelegate.swift */; };
 		F2E482BD2D0A666A0076C369 /* TipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E482BC2D0A666A0076C369 /* TipsView.swift */; };
 		F2E482C02D0A6A840076C369 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E482BF2D0A6A840076C369 /* WelcomeView.swift */; };
 		F2E482C22D0A708A0076C369 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E482C12D0A70810076C369 /* WelcomeViewController.swift */; };
@@ -24,6 +27,8 @@
 		F2FF924F2D0BCCA500FA5D6B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FF924E2D0BCCA500FA5D6B /* HomeViewController.swift */; };
 		F2FF92522D0BCF7500FA5D6B /* PlaceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FF92512D0BCF7500FA5D6B /* PlaceTableViewCell.swift */; };
 		F2FF92552D0BD77900FA5D6B /* PlaceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FF92542D0BD77900FA5D6B /* PlaceModel.swift */; };
+		F2FF92572D0BE48B00FA5D6B /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FF92562D0BE48B00FA5D6B /* Category.swift */; };
+		F2FF925A2D0BE4CD00FA5D6B /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FF92592D0BE4CD00FA5D6B /* HomeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +37,9 @@
 		A9E7FD842CD93BFE001A762A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A9E7FD8B2CD93C01001A762A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9E7FD902CD93C01001A762A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2CF3E642D0CCE3400D62307 /* PlaceAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceAnnotation.swift; sourceTree = "<group>"; };
+		F2CF3E672D0CFBF600D62307 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		F2CF3E692D0D190300D62307 /* WelcomeFlowDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeFlowDelegate.swift; sourceTree = "<group>"; };
 		F2E482BC2D0A666A0076C369 /* TipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsView.swift; sourceTree = "<group>"; };
 		F2E482BF2D0A6A840076C369 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		F2E482C12D0A70810076C369 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
@@ -46,6 +54,8 @@
 		F2FF924E2D0BCCA500FA5D6B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		F2FF92512D0BCF7500FA5D6B /* PlaceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceTableViewCell.swift; sourceTree = "<group>"; };
 		F2FF92542D0BD77900FA5D6B /* PlaceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceModel.swift; sourceTree = "<group>"; };
+		F2FF92562D0BE48B00FA5D6B /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		F2FF92592D0BE4CD00FA5D6B /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +135,14 @@
 			path = Constants;
 			sourceTree = "<group>";
 		};
+		F2CF3E662D0CFBE000D62307 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				F2CF3E672D0CFBF600D62307 /* DetailsViewController.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
 		F2E482BB2D0A66540076C369 /* Components */ = {
 			isa = PBXGroup;
 			children = (
@@ -138,6 +156,7 @@
 			children = (
 				F2E482C12D0A70810076C369 /* WelcomeViewController.swift */,
 				F2E482BF2D0A6A840076C369 /* WelcomeView.swift */,
+				F2CF3E692D0D190300D62307 /* WelcomeFlowDelegate.swift */,
 			);
 			path = WelcomeView;
 			sourceTree = "<group>";
@@ -171,6 +190,7 @@
 		F2E5D07F2D0912E700F3B037 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				F2CF3E662D0CFBE000D62307 /* Detail */,
 				F2FF924B2D0BCC7500FA5D6B /* HomeView */,
 				F2E482BE2D0A6A730076C369 /* WelcomeView */,
 				F2E5D07E2D0912D300F3B037 /* Splash */,
@@ -181,6 +201,7 @@
 		F2FF924B2D0BCC7500FA5D6B /* HomeView */ = {
 			isa = PBXGroup;
 			children = (
+				F2FF92582D0BE4BD00FA5D6B /* ViewModel */,
 				F2FF92502D0BCF5700FA5D6B /* TableViewCell */,
 				F2FF924C2D0BCC9300FA5D6B /* HomeView.swift */,
 				F2FF924E2D0BCCA500FA5D6B /* HomeViewController.swift */,
@@ -200,8 +221,18 @@
 			isa = PBXGroup;
 			children = (
 				F2FF92542D0BD77900FA5D6B /* PlaceModel.swift */,
+				F2FF92562D0BE48B00FA5D6B /* Category.swift */,
+				F2CF3E642D0CCE3400D62307 /* PlaceAnnotation.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		F2FF92582D0BE4BD00FA5D6B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F2FF92592D0BE4CD00FA5D6B /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,8 +305,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2E482C22D0A708A0076C369 /* WelcomeViewController.swift in Sources */,
+				F2FF925A2D0BE4CD00FA5D6B /* HomeViewModel.swift in Sources */,
 				F2FF92552D0BD77900FA5D6B /* PlaceModel.swift in Sources */,
 				A9E7FD832CD93BFE001A762A /* AppDelegate.swift in Sources */,
+				F2CF3E6A2D0D190300D62307 /* WelcomeFlowDelegate.swift in Sources */,
 				F2FF924D2D0BCC9300FA5D6B /* HomeView.swift in Sources */,
 				F2E5D07A2D090F3000F3B037 /* Colors.swift in Sources */,
 				F2E5D07D2D09109200F3B037 /* NearbyFlowController.swift in Sources */,
@@ -284,11 +317,14 @@
 				A9E7FD852CD93BFE001A762A /* SceneDelegate.swift in Sources */,
 				F2E482BD2D0A666A0076C369 /* TipsView.swift in Sources */,
 				F2E5D0812D09130200F3B037 /* SplashViewController.swift in Sources */,
+				F2FF92572D0BE48B00FA5D6B /* Category.swift in Sources */,
 				F2E482C52D0A75AE0076C369 /* UIViewController+ext.swift in Sources */,
+				F2CF3E652D0CCE3400D62307 /* PlaceAnnotation.swift in Sources */,
 				F2E482C72D0A77430076C369 /* SplashFlowDelegate.swift in Sources */,
 				F2FF924A2D0BC51800FA5D6B /* Typography.swift in Sources */,
 				F2E5D0832D09136400F3B037 /* SplashView.swift in Sources */,
 				F2FF92522D0BCF7500FA5D6B /* PlaceTableViewCell.swift in Sources */,
+				F2CF3E682D0CFBF600D62307 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
